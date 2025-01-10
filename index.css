@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e9e4e4;
+}
+.myntra_home {
+    height: 45px;
+}
+.logo_container {
+    margin-left: 4%;
+}
+.action_bar {
+    margin-right: 4%;
+}
+.nav_bar {
+    display: flex;
+    text-transform: uppercase;
+    min-width: 500px;
+    justify-content: space-evenly;
+    
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 28px 0;
+    border-bottom: 4px solid #ffffff;
+}
+
+.nav_bar a:hover {
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon {
+    height: 20px;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input {
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Section */
+
+.banner_container {
+    margin: 40px 0;
+}
+.banner_image {
+    width: 100%;
+}
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item {
+    width: 250px;
+}
+footer {
+    background: #fafbfc;
+}
+.footer_container {
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3 {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.footer_column a {
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.mobile_experience {
+    font-weight: 700;
+    color: #282c3f;
+    margin: -3px 0 0;
+    padding: 0 0 25px;
+    text-transform: uppercase;
+}
+.mobile_experiences {
+    font-weight: 700;
+    color: #282c3f;
+    margin: -3px 0 0;
+    padding: 0 0 15px;
+    text-transform: uppercase;
+}
+.icons img {
+    width: 140px;
+    height: 40px;
+}
+.icons {
+    padding-bottom: 15px;
+}
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    i {
+        color: #282c3f;
+    } 
+}
+.contact-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+.contact-icons a:hover {
+    background-color: #282c3f; ;
+}
+.contact-icons a:hover i {
+    color:white;
+}
+.contact-icons a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.issue {
+    display: flex;
+    justify-content: space-around;
+    color: #94969f;
+    padding: 20px 0;
+    border-bottom: 2px solid #e9e4e4;
+}
+.contact a {
+    font-weight: 700;
+    text-decoration: none;
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+}
+.registered_address {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 80px;
+    border-bottom: 2px solid #e9e4e4;
+}
+.office_address {
+    width: 70%;
+    color: #94969f;
+    h3{
+        color: #282c3f;
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 25px;
+        text-transform: uppercase; 
+    }
+}
+.cin_telephone {
+    color: #94969f;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 50px;
+}
+.telephone span {
+    color: blue;
+    font-weight: 700;
+}
+.myntra_app h3 {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    text-transform: uppercase; 
+}
+.myntra_app p {
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+}
+.history h3 {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.history p {
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+}
+.convenience h3 {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.convenience p {
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px; 
+}
+.kahaniya {
+    padding: 20px 110px;
+}
